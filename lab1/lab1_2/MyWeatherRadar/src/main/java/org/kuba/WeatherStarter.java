@@ -8,16 +8,22 @@ import org.kuba.weather.ipma_client.IpmaCityForecast;
 import org.kuba.weather.ipma_client.IpmaService;
 
 import java.util.Scanner;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 /**
  * demonstrates the use of the IPMA API for weather forecast
  */
 public class WeatherStarter {
 
+    private static final Logger logger = LogManager.getLogger(WeatherStarter.class);
+
     //todo: should generalize for a city passed as argument
     private static int CITY_ID = -1;
 
+
     public static void  main(String[] args ) {
+        logger.info("We've just greeted the user!");
 
         // get a retrofit instance, loaded with the GSon lib to convert JSON into objects
         Retrofit retrofit = new Retrofit.Builder()
@@ -45,8 +51,10 @@ public class WeatherStarter {
                 System.out.printf( "max temp for %s is %4.1f %n",
                         firstDay.getForecastDate(),
                         Double.parseDouble(firstDay.getTMax()));
+                logger.info("Valid request!");
             } else {
                 System.out.println( "No results for this request!");
+                logger.error("Bad request!");
             }
         } catch (Exception ex) {
             ex.printStackTrace();
