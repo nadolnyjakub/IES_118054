@@ -1,0 +1,20 @@
+Repository -> access to the database
+extends JpaRepository<Class, type of Id>
+
+Multilayer applications - divided structure into controllers, services, repositories
+
+Things learned: 
+Database Interaction:
+
+Configuration of Spring Data JPA for database interactions.
+Hands-on experience in defining entities, repositories, and CRUD operations.
+RESTful Web Services:
+Creation of RESTful endpoints using Spring Boot.
+Testing and validation of REST APIs using tools like Postman.
+Containerization with Docker:
+Usage of Docker for containerizing Spring Boot applications and managing dependencies.
+Software Design Principles:
+Understanding of separation of concerns through the introduction of service components.
+These exercises provide a comprehensive foundation for developing robust and scalable Spring Boot applications, emphasizing database interactions, RESTful API development and containerization.
+
+

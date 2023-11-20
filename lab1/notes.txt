@@ -1,0 +1,15 @@
+mvn clean package -> generates jar file in target package
+used in Dockerfile
+JAVA_HOME
+git add, commit push
+git fetch, pull
+
+Things learned:
+
+Setting up Java Development Environment, installation and configuration of Maven, initialization of Maven projects using archetypes,
+defining project properties in the pom.xml file, declaring and managing dependencies, building and running Java applications with Maven, installing and configuring Git,
+adding projects to Git versioning, creating and using .gitignore files, simulating collaboration with Git by working in different locations, pushing changes to remote repositories,
+installing Docker Desktop, understanding Docker containers and images, basic usage of Docker commands, deployment of services in Docker containers,
+introduction to Docker Compose for managing multi-container applications, using Portainer for Docker container management,
+creating Java applications with Maven,
+consuming external APIs (e,g,, weather forecast API) using Retrofit, JSON processing, adding logging to Java applications using Log4j 2, building executable JAR files with Maven,

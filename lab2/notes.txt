@@ -1,0 +1,16 @@
+At first I had some problems with java versions but I managed to fix them
+
+docker-compose.yaml used to prepare docker based deployment
+@RestController - RESTful APIs - xml or json
+@Controller - building tradictional apps with views (html)
+
+Things learned:
+Server-Side Development:
+Understanding servlets, their deployment, and handling of client-server interactions.
+Implementation of web services with Jakarta EE for enterprise applications.
+Modern Java Frameworks:
+Utilizing Spring Boot for rapid application development.
+Building web applications with Thymeleaf and creating RESTful APIs.
+Containerization:
+Dockerization of applications for streamlined deployment and management.
+These exercises provide a comprehensive understanding of server-side programming in Java, encompassing servlets, enterprise application development with Jakarta EE, and modern frameworks like Spring Boot. The knowledge extends to containerization, emphasizing Docker, and the development of RESTful web services.
